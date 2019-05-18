@@ -1,0 +1,11 @@
+create table member2(
+  userid varchar2(15) primary key,
+  password varchar2(20) not null,
+  username nvarchar2(10) not null,
+  gender varchar2(3) not null,
+  email varchar2(50) not null
+);
+
+insert into member2 values('hong123','hong123','홍길동','남','hong12@naver.com');
+
+drop table member2;
